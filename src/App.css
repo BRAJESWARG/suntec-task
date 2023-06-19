@@ -1,38 +1,109 @@
 .App {
   text-align: center;
+  margin: 30px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header{
+  margin-bottom: -12rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-header{
+  height: 280px;
+  width: 450px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image-row1{
+  background-image: linear-gradient(to right, green, blanchedalmond);
+}
+
+.image-row2{
+  background-color: rgb(241, 67, 67);
+  padding-bottom: 20px;
+}
+
+.customers-text{
+
+  position: relative;
+  color: whitesmoke;
+  font-size: 4.5rem;
+  top:-24rem;
+}
+
+.Body{
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+/* margin-left: ; */
+}
+
+.female-body{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.annete{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: wheat;
 }
 
-.App-link {
-  color: #61dafb;
+.something1{
+  color: whitesmoke;
+  background-color: orangered;
+  border-radius: 30px;
+  height: 25px;
+  /* width: 100px; */
+  font-weight: 600;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.something2{
+  color: whitesmoke;
+  background-color: grey;
+  border-radius: 30px;
+  height: 25px;
+  /* width: 100px; */
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.something3{
+  color: whitesmoke;
+  height: 25px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.Table-body{
+  color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  padding-bottom: 20px;
+}
+
+.image-table{
+  height: 20px;
+  border-radius: 3px;
+}
+
+.body-header{
+  display: flex;
+  justify-content: space-around;
+  background: grey;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.table-head{
+  margin-top: 10px !important;
+  font-weight: 600;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px;
 }
