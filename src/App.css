@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin: 30px !important;
+  background-color: black;
 }
 
 .Header{
@@ -26,7 +27,7 @@
   position: relative;
   color: whitesmoke;
   font-size: 4.5rem;
-  top:-24rem;
+  top:-25.4rem;
 }
 
 .Body{
@@ -106,4 +107,17 @@
   background-color: grey;
   border-radius: 10px;
   padding: 5px;
+}
+
+.Footer{
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 115px;
+}
+
+.null{
+  background-color: orange;
+  width: 100px;
+  height: 20px;
+  margin-left: 46%;
 }
